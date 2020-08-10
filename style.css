@@ -1,0 +1,140 @@
+
+body {
+    margin: 0;
+
+}
+
+header {
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    margin: 20px 30px;
+    word-spacing: 10px;
+}
+
+footer {
+    position: fixed;
+    font-family: Roboto, arial, helvetica, sans-serif;
+    font-size: 14px;
+    word-spacing: 30px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e7e7e7;
+    width: 100%;
+    bottom: 0;
+
+}
+.nav-text-right {
+    margin-right: 40px;
+    float: right;
+   
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    display: inline-block;
+
+}
+li:hover {
+    text-decoration: underline;
+}
+li a{
+    text-decoration: none;
+    color: #5F6368;
+}
+
+.float-right {
+    float: right;
+}
+
+i {
+    color: #c6c6c6;
+}
+i:hover {
+    color: #222;
+}
+.sign-in-btn {
+border: 1px solid #4285f4;
+border-radius: 3px;
+font-size: 13px;
+font-weight: bold;
+padding: 8px 12px;
+background: #4285f4;
+color: white;
+text-decoration: none;
+display: inline-block;
+outline: none;
+}
+
+.sign-in-btn:hover {
+    color: white;
+    box-shadow: 10px auto 10px 10px #888888;
+    
+}
+
+.google-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: auto;
+    padding-top: 100px;
+
+}
+.search-bar {
+width: 582px;
+height: 44px;
+margin-top: 27px;
+margin-bottom: 20px;
+border: 1px solid #dfe1e5;
+border-radius: 50px;
+position: relative;
+text-indent: 40px;
+background: transparent;
+outline: none;
+
+}
+
+input:hover {
+    
+    box-shadow: 0 0 5px 0px #c6c6c6;
+
+}
+
+.search button[class="micro-btn"] {
+    position:relative;
+    right: 40px;
+    border: none;
+    background: transparent;
+}
+.search button[class="mag-btn"] {
+    position:relative;
+    left: 40px;
+    border: none;
+    background: transparent;
+}
+
+   
+.btn-group button {
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 16px;
+    margin:  11px 4px;
+    text-decoration: none;
+
+}
+button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+.align-center {
+    text-align: center;
+}
